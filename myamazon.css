@@ -1,0 +1,362 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 98.8vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.nav-logo {
+    height: 60px;
+    width: 105px;
+
+}
+
+.logo {
+    background-size:contain;
+    height: 50px;
+    width: 100px;
+    background-image: url(https://verasolutions.in/wp-content/uploads/2023/06/image.png);
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box 2 */
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color:#cccccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    height: 40px;
+    width: 800px;
+    border-radius: 4px;
+}
+option{
+    border-top: 1px solid #999;
+    background-color: #fff;
+     color: pink;
+     display: flex;
+}
+
+.search-icon{
+  width: 50px;
+  height: 104%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:5px ; 
+    border-bottom-left-radius:5px ; 
+}
+
+
+
+.search-input{
+    width: 100%;
+   margin-top: 1.2px;
+    font-size: 1rem;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+letter-spacing: 0.2px;
+word-spacing: -0.2px;
+color: #323232;
+font-weight: normal;
+text-decoration: none;
+font-style: unset;
+font-variant: normal;
+text-transform: capitalize;
+}
+
+.nav-signin{
+    /* color:#cccccccc; */
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.nav-return{
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-search:hover{
+    border: 2px solid orange ;
+}
+
+.nav-cart i{
+  font-size: 20px;
+}
+
+.nav-cart{
+   font-size: 0.85rem;
+   font-weight: 700; 
+}
+
+/* //panel */
+
+.panel{
+    height: 40px;
+    width: 98.8vw;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+
+.hero-section{
+    background-image: url(herosection.jpg);
+    height: 350px;
+    width: 98.8vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.hero-message a{
+    color: #007185;
+}
+
+.shop-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,fr);
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#e2e7e6;
+    
+}
+
+
+.box{
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: 2px solid transparent;
+}
+
+
+
+.box:hover{
+    border: 2px solid black;
+   
+}
+.box-img{
+    height: 200px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.1rem;
+   
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+   font: italic small-caps bold 16px/2 cursive;
+    
+}
+
+.box-content p,a{
+    color:#007185;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1200px) {
+   .box-content{
+    font-size:10px;
+    font-weight: lighter;
+   }
+
+   .box-content i{
+    font-size: medium;
+    /* font-weight: lighter; */
+   }
+
+   .box{
+    width: 23%;
+    height: 50%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: 2px solid transparent;
+   }
+
+    .box-img{
+        height: 100px;
+        background-size: contain; 
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 0.1rem;
+   }
+    }
+    
+@media screen and (max-width:700px) {
+    .box-content{
+        font-size:7px;
+        font-weight: lighter;
+       }
+    
+       .box-content i{
+        font-size: small;
+        /* font-weight: lighter; */
+       }
+    
+}
+/* Footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    color: #dddddd;
+    margin: 10px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.05px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    color: #0f1111;
+    font-weight: 800;
+    /* background-image: url(https://verasolutions.in/wp-content/uploads/2023/06/image.png);///// */
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+  padding: 25px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.pages
+{
+    padding-top: 20px;
+}
+.copy-right{
+    padding-bottom: 10px;
+}
+
+
+  
+
+  
